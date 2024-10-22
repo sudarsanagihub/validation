@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 0 15px;
+    
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.section p, .section a {
+    margin: 0;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.discrepancies {
+    margin-top: 20px;
+}
+
+.executor p {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Additional styling for spacing */
+.container div h4 {
+    margin-bottom: 10px;
+}
+
+.container div p {
+    margin-bottom: 10px;
+}
+
+.row .column h4, .section h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#attach-link {
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.discrepancy-content {
+    display: none; /* Initially hide the discrepancies table */
+    margin-top: 10px;
+}
+
+.dropdown-button {
+    background-color: rgb(193, 190, 190);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.dropdown-button:after {
+    content: '\25BC'; /* Down arrow symbol */
+    float: right;
+}
+
+.dropdown-button.active:after {
+    content: '\25B2'; /* Up arrow symbol */
